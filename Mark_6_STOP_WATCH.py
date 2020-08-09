@@ -29,7 +29,7 @@ def Reset():
     set_minute.delete('0',END)
     set_second.delete('0',END)
 root=Tk()
-root.geometry("370x400+50+50")
+root.geometry("370x200+50+50")
 root.title("STOP_WATCH")
 #Creating Entries
 
