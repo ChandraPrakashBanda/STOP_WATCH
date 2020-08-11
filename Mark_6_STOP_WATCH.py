@@ -15,7 +15,7 @@ def countdown(count):
         root.after(1000,countdown,count-1)
     else:
         for x in range(3):
-             winsound.Beep(1000,1000)
+             winsound.Beep(1000,3000)
 def updateButton():
         # Taking entries 
         minute=set_minute.get()
